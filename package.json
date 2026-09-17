@@ -1,0 +1,35 @@
+{
+  "name": "@christiaan/pi-web-search",
+  "version": "0.1.0",
+  "description": "Web search and fetch tools for the pi coding agent - fixes OLLAMA_HOST support so non-local Ollama instances work",
+  "homepage": "https://github.com/christiaan/pi-web-search",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christiaan/pi-web-search"
+  },
+  "issues": "https://github.com/christiaan/pi-web-search/issues",
+  "main": "./index.ts",
+  "author": "Christiaan Baartse <christiaan@baartse.nl>",
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "web-search",
+    "ollama",
+    "web-fetch",
+    "ollama-host"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
