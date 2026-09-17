@@ -9,8 +9,7 @@
   },
   "issues": "https://github.com/christiaan/pi-web-search/issues",
   "main": "./index.ts",
-  "author": "Christiaan Baartse <cbaartse@leviy.com>",,
-  "license": "MIT",
+  "author": "Christiaan Baartse <cbaartse@leviy.com>",  "license": "MIT",
   "files": [
     "index.ts",
     "README.md",
