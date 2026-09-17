@@ -23,10 +23,10 @@ environment variable so remote instances work out of the box.
 
 ## Installation
 
-### From npm
+### From GitHub / git
 
 ```bash
-pi install npm:@christiaan/pi-web-search
+pi install git:github.com/christiaan/pi-web-search
 ```
 
 ### From a local path (development)
@@ -62,7 +62,7 @@ If you get connection errors:
 After this package is updated, reinstall it so pi picks up the new code:
 
 ```bash
-pi install npm:@christiaan/pi-web-search
+pi install git:github.com/christiaan/pi-web-search
 ```
 
 ## License
